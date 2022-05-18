@@ -752,7 +752,7 @@ if ($arguments["short"] == true) {
 
 // countries列表。"关键词": ["替换为", 0]
 
-console.log(decodeURI(Object.keys(countries))
+console.log(decodeURI(Object.keys(countries)));
 // 其它
 var others = {
     "专线": "Spec",
