@@ -1,5 +1,8 @@
 //感谢 @bluman  @Mashiro 两位大佬！
 //我要跪着感谢！
+// 创建国家列表
+
+
 if ($arguments["short"] == true) {
     var countries = {
         "Traffic": ["delete", 0],
@@ -749,7 +752,7 @@ if ($arguments["short"] == true) {
 
 // countries列表。"关键词": ["替换为", 0]
 
-
+console.log(Object.keys(countries))
 // 其它
 var others = {
     "专线": "Spec",
