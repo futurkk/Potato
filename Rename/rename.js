@@ -750,11 +750,12 @@ if ($arguments["short"] == true) {
         "ZR": ["Zaire", 0],
     };
 };
-
+var lst = []
 // countries列表。"关键词": ["替换为", 0]
 for (let elem of Object.values(countries)) {
-    console.log(elem[0]);
+    lst.push('"'+elem[0]+'"');
 };
+console.log(lst)
 console.log(Object.keys(countries));
 // 其它
 var others = {
