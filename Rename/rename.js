@@ -18,15 +18,15 @@ if ($arguments["input"] == undefined || $arguments[input] == "zh") {
 };
 
 if ($arguments["output"] == undefined || $arguments[input] == "enFull") {
-    var inputList = enFull;
+    var outputList = enFull;
 } else if ($arguments["output"] == "zh") {
-    var inputList = zh;
+    var outputList = zh;
 } else if ($arguments["output"] == "enShort") {
-    var inputList = enShort;
+    var outputList = enShort;
 };
 
 var countries = {};
-for (let i = 0; i < arr.length; ++i) {
+for (let i = 0; i < inputList.length; ++i) {
     countries[inputList[i]] = [outputList[i], 0];
 };
 
