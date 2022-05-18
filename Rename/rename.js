@@ -25,8 +25,8 @@ if ($arguments["output"] == undefined || $arguments[input] == "enFull") {
     var inputList = enShort;
 };
 
-var countries = {};
-for (let i in inputList){
+var countries = {}
+for (let i = 0; i < arr.length; ++i) {
     var countries(inputList[i]) = [outputList[i], 0]
 };
 
@@ -88,7 +88,7 @@ function operator(proxies) {
                 resultArray.splice(2, 0, others[elem]);
             };
         });
-        res.name = resultArray.join(' ');
+        res.name = resultArray.join(" ");
     })
     return proxies
 }
