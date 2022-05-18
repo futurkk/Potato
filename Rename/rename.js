@@ -9,7 +9,7 @@ console.log(enShort.length);
 console.log(zh.length);
 console.log(enFull.length);
 
-if ($arguments["input"] == undefined || $arguments[input] == "zh") {
+if ($arguments["input"] == undefined || $arguments["input"] == "zh") {
     var inputList = zh;
 } else if ($arguments["input"] == "enFull") {
     var inputList = enFull;
