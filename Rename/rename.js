@@ -753,7 +753,7 @@ if ($arguments["short"] == true) {
 var lst = []
 // countries列表。"关键词": ["替换为", 0]
 for (let elem of Object.values(countries)) {
-    lst.push('"'+elem[0]+'"');
+    lst.push(elem[0]);
 };
 console.log(lst)
 console.log(Object.keys(countries));
