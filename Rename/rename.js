@@ -25,12 +25,12 @@ if ($arguments["output"] == undefined || $arguments[input] == "enFull") {
     var inputList = enShort;
 };
 
-var countries = {}
+var countries = {};
 for (let i = 0; i < arr.length; ++i) {
     var countries(inputList[i]) = [outputList[i], 0]
 };
 
-console.log(countries)
+console.log(countries);
 
 // 其它
 var others = {
