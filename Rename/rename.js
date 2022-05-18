@@ -17,7 +17,7 @@ if ($arguments["input"] == undefined || $arguments["input"] == "zh") {
     var inputList = enShort;
 };
 
-if ($arguments["output"] == undefined || $arguments[input] == "enFull") {
+if ($arguments["output"] == undefined || $arguments["output"] == "enFull") {
     var outputList = enFull;
 } else if ($arguments["output"] == "zh") {
     var outputList = zh;
