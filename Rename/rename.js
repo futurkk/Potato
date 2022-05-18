@@ -27,7 +27,7 @@ if ($arguments["output"] == undefined || $arguments[input] == "enFull") {
 
 var countries = {};
 for (let i = 0; i < arr.length; ++i) {
-    var countries[inputList[i]] = [outputList[i], 0];
+    countries[inputList[i]] = [outputList[i], 0];
 };
 
 console.log(countries);
